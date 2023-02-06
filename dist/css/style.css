@@ -78,8 +78,6 @@ body::-webkit-scrollbar-thumb {
 	color: var(--text-color);
 }
 
- 
-
 .navbar .navbar-box {
 	display: flex;
 	justify-content: space-between;
