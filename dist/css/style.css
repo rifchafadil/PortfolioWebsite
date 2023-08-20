@@ -229,13 +229,13 @@ body::-webkit-scrollbar-thumb {
 }
 
 .header-box h1 {
-	color: #ccd6f6;
+	color: #8892b0;
 	font-size: 46px;
 	--animate-delay: 4.6s;
 }
 
 .header-box h1:nth-child(2) {
-	color: #8892b0;
+	color: #ccd6f6;
 	font-size: 46px;
 	--animate-delay: 4.7s;
 }
@@ -359,7 +359,7 @@ body::-webkit-scrollbar-thumb {
 
 .skills .title h1 {
 	font-size: 36px;
-	color: #ccd6f6;
+	color: var(--text-color);
 }
 
 .skills .skills-box {
@@ -511,7 +511,7 @@ body::-webkit-scrollbar-thumb {
 .projects .big-projects .big-projects-box .box p {
 	margin-bottom: 10px;
 	font-size: 14px;
-	text-align: justify;
+	/* text-align: justify; */
 	/* height: 150px; */
 	padding: 0 10px 0 10px;
 }
@@ -580,7 +580,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .resume .resume-box .box h1 {
-	color: #ccd6f6;
+	color: var(--text-color);
 	margin-bottom: 10px;
 	font-size: 40px;
 }
